@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-       label 'docker'
-    }
+    agent any
     // set up environment
     environment {
         HOME = '.'
